@@ -52,10 +52,14 @@ section {
 }
 
 .logo {
-  font-size: 2.5rem;
+  font-size: 2.8rem;
   color: var(--text-color);
   font-weight: 600;
   cursor: pointer;
+  transition: 0.5s ease;
+}
+.logo:hover{
+  color: var(--main-color);
 }
 
 .navbar a {
